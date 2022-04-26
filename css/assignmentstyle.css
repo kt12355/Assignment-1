@@ -7,12 +7,13 @@ body{
 header{
 	width: auto;
 	height: auto;
-	background-color: #86c7ed;
+	background-color: #1836b2;
 	height: 100px;
 }
 
-label.logo{
-  color: white;
+header label.logo{
+  color: white !important;
+  text-decoration: none !important;
   font-size: 35px;
   line-height: 100px;
   padding: 0 100px;
@@ -64,17 +65,21 @@ header ul{
 	margin-right: 100px;
 }
 
-header li{
+header ul li{
 	display: inline-block;
 	margin-right: 20px;
 	margin: 0 5px;
 	line-height: 80px;
-
 }
 
-header a{
+header label a{
+	text-decoration: none;
+	color: white;
+}
+
+header li a{
 	text-align: center;
-	color: #1836b2;
+	color: #86c7ed;
 	text-decoration: none;
 	font-family: 'Calibri', sans-serif;
 	font-size: 1.2vw; 
@@ -85,8 +90,8 @@ header a{
 	border-radius: 3px;
 }
 
-a:hover{
-	background-color: #bddff4;
+header ul a:hover{
+	background-color: #8c52ff;
 	transition: 0.5s;
 }
 
@@ -187,11 +192,11 @@ main div{
 	margin: 10px;
 }
 
-main p a{
+main li a{
 	color: #1836b2;
 }
 
-main img{
+main div p img{
 	width: 600px;
 	max-height: 400px;
 	text-align: center;
@@ -221,15 +226,15 @@ main tbody{
 }
 
 main li{
-	display: inline-block;
+	list-style: none;
 	font-size: 18px;
 	font-family: Calibri, sans-serif;
 }
 
 footer{
-	background-color: #86c7ed;
+	background-color: #1836b2;
 	text-align: center;
-	color: #1836b2;
+	color: #86c7ed;
 	padding: 50px;
 	font-family: 'Calibri', sans-serif;
 }
@@ -239,7 +244,7 @@ footer p{
 }
 
 footer a{
-	color: #1836b2;
+	color: #86c7ed;
 }
 footer a:hover{
 	opacity: 5;
