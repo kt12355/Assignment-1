@@ -200,7 +200,7 @@ main div{
 	margin: 10px;
 }
 
-main li a{
+main a{
 	color: #1836b2;
 }
 
@@ -242,6 +242,12 @@ main li{
 main li.contact img{
 	max-height: 18px;
 	max-width: 18px;
+}
+main.about img{
+	float: right;
+	height: 400px;
+	padding-left: 30px;
+	padding-top: 35px;
 }
 
 footer{
