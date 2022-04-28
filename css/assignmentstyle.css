@@ -8,7 +8,7 @@ header{
 	width: auto;
 	height: auto;
 	background-color: #1836b2;
-	height: 100px;
+	min-height: 100px;
 }
 
 header label.logo{
@@ -22,7 +22,7 @@ header label.logo{
 }
 
 header nav{
-	height: 80px;
+	height: 100px;
 }
 
 h1{
@@ -103,6 +103,7 @@ header ul a:hover{
 	margin-right: 40px;
 	cursor: pointer;
 	display: none;
+	padding-top: 10px;
 }
 
 #check{
@@ -140,7 +141,12 @@ header ul a:hover{
 @media (max-width: 970px){
 	.checkbtn{
 		display: block;
-		left: 100%;
+		right:0px;
+		position: fixed;
+	}
+	nav{
+		position: fixed;
+		min-width: 954px;
 	}
 	nav ul{
 		position: fixed;
@@ -211,6 +217,13 @@ main img.timmy{
 	max-height: 230px;
 }
 
+main figcaption.timmy{
+	float: right;
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
 main img.internet{
 	width: 600px;
 	max-height: 400px;
@@ -246,11 +259,18 @@ main tbody{
 	align-content: center;
 }
 
-main li{
+main li.contact{
 	list-style: none;
 	font-size: 18px;
 	font-family: Calibri, sans-serif;
 }
+
+main li.home{
+	list-style: circle black;
+	font-size: 18px;
+	font-family: Calibri, sans-serif;
+}
+
 
 main li.contact img{
 	max-height: 18px;
