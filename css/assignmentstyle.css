@@ -239,6 +239,7 @@ main img.intranet{
 }
 
 main table{
+	border-spacing: 0;
 	font-family: Calibri, sans-serif;
 	font-size: 14px;
 	width: 100%;
@@ -247,7 +248,7 @@ main table{
 }
 
 main td, main th{
-	border: 1px solid #dddddd;
+	border: 1px solid black;
 	padding: 2px
 }
 
